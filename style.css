@@ -7,7 +7,7 @@ body{
     font-family:Comic Sans MS;
     background-size: cover;
     height: 50rem;
-    color: white;
+    color: #b624c9;
     text-align: center;
 }
 
@@ -25,5 +25,42 @@ h6{
      color:white;
  }
 
+.about-jumbotron{
+    background-image: url(Images/jag.jpg);
+    font-family:Comic Sans MS;
+    background-size: cover;
+    height: 40rem;
+    color: #b624c9;
+    text-align: center;
+    
+}
 
+.about-content{
+    color:white;
+}
 
+.about-content h3{
+    color:red;
+}
+
+.resume-jumbotron{
+    background-image: url(Images/resume.jpg);
+    font-family:Comic Sans MS;
+    background-size: cover;
+    height: 50rem;
+    color: #b624c9;
+    text-align: center;
+}
+
+.projects-jumbotron{
+    background-image: url(Images/projects.jpg);
+    font-family:Comic Sans MS;
+    background-size: cover;
+    height: 50rem;
+    color: #b624c9;
+    text-align: center;
+}
+
+.projects-container{
+    color:white;
+}
