@@ -1,0 +1,29 @@
+body{
+    background-color:#112e56;
+}
+
+.main-jumbotron {
+    background-image: url(Images/cool.jpg);
+    font-family:Comic Sans MS;
+    background-size: cover;
+    height: 50rem;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background-color:black !important;
+}
+
+h6{
+     border-style: solid;
+    background-color:rgb(155, 66, 244);
+     font-family:helevtica;
+ }
+ 
+ .main-container{
+     color:white;
+ }
+
+
+
