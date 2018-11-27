@@ -6,7 +6,7 @@ body{
     background-image: url(Images/cool.jpg);
     font-family:Comic Sans MS;
     background-size: cover;
-    height: 50rem;
+    height: 40rem;
     color: #b624c9;
     text-align: center;
 }
@@ -47,7 +47,7 @@ h6{
     background-image: url(Images/resume.jpg);
     font-family:Comic Sans MS;
     background-size: cover;
-    height: 50rem;
+    height: 40rem;
     color: #b624c9;
     text-align: center;
 }
@@ -56,11 +56,15 @@ h6{
     background-image: url(Images/projects.jpg);
     font-family:Comic Sans MS;
     background-size: cover;
-    height: 50rem;
+    height: 40rem;
     color: #b624c9;
     text-align: center;
 }
 
 .projects-container{
     color:white;
+}
+
+.projects-container h3{
+    color: red;
 }
