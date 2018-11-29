@@ -1,120 +1,168 @@
-body{
-    background-color:#112e56;
-}
-
-
-
-
-.logo{
-    float: left;
-    color: white;
-    position: fixed;
-    margin: 0 36px 16px 36px;
-    font-weight: bold;
-    font-size: 29px;
-    z-index: 11;
-}
-
-
-
-.menu{
-    width: 100%;
-    position: fixed;
-    z-index: 10;
-    font-size: 15px;
-}
-
-nav ul {
-    list-style: none;
-    background: black;
-    overflow: auto;
-    padding: 0px;
-    text-align: right;
-    margin:0px;
-    height: 50px;
-}
-
-nav li{
-    display:inline-block;
-    margin-right: 80px;
-    margin-top: 11px;
+    body{
+        background-color:#112e56;
+    }
     
-}
-
-.main-jumbotron {
-    background-image: url(Images/background.jpg);
-    font-family:Comic Sans MS;
-    background-size: cover;
-    height: 15rem;
-    color: white;
-    text-align: center;
-}
-
-
-h1{
-    margin-top: 40px;
-    color: white;
-}
-
-
-footer{
-    background-color:black !important;
-}
-
-h6{
-     border-style: solid;
-    background-color:rgb(155, 66, 244);
-     font-family:helevtica;
- }
- 
- .main-container{
-     color:white;
-     float: none;
-     margin: auto;
+    
+    
+    
+    .logo{
+        float: left;
+        color: white;
+        position: fixed;
+        margin: 0 36px 16px 36px;
+        font-weight: bold;
+        font-size: 29px;
+        z-index: 11;
+        font-family: Comic Sans MS;
+    }
+    
+    
+    
+    .menu{
+        width: 100%;
+        position: fixed;
+        z-index: 10;
+        font-size: 15px;
+    }
+    
+    nav ul {
+        list-style: none;
+        background: black;
+        overflow: auto;
+        padding: 0px;
+        text-align: right;
+        margin:0px;
+        height: 50px;
+    }
+    
+    nav li{
+        display:inline-block;
+        margin-right: 80px;
+        margin-top: 11px;
+        
+    }
+    
+    hr{
+         background-color: grey !important;
+        color: grey !important;
+        border: solid 1px grey !important;
+        height: 4px !important;
+        width: 1200px !important;    }
+    
+    .main-jumbotron {
+        background-image: url(Images/background.jpg);
+        font-family:Comic Sans MS;
+        background-size: cover;
+        height: 15rem;
+        color: white;
+        text-align: center;
+    }
+    
+    
+    h1{
+        margin-top: 40px;
+        color: white;
+    }
+    
+    
+    footer{
+        background-color:black !important;
+    }
+    
+    h6{
+         border-style: solid;
+        background-color:rgb(155, 66, 244);
+         font-family:helevtica;
+     }
      
- }
-
-.about-jumbotron{
-    background-image: url(Images/background.jpg);
-    font-family:Comic Sans MS;
-    background-size: cover;
-    height: 15rem;
-    color: #b624c9;
-    text-align: center;
+     .main-container{
+         color:white;
+         margin: 0 auto;
+         display: block;
+         
+     }
+     
+     .my_card{
+         margin-left: auto;
+     }
     
-}
-
-.about-content{
-    color:white;
-}
-
-
-.about-content h3{
-    color:red;
-}
-
-.resume-jumbotron{
-    background-image: url(Images/background.jpg);
-    font-family:Comic Sans MS;
-    background-size: cover;
-    height: 15rem;
-    color: #b624c9;
-    text-align: center;
-}
-
-.projects-jumbotron{
-    background-image: url(Images/background.jpg);
-    font-family:Comic Sans MS;
-    background-size: cover;
-    height: 15rem;
-    color: #b624c9;
-    text-align: center;
-}
-
-.projects-container{
-    color:white;
-}
-
-.projects-container h3{
-    color: red;
-}
+    .about-jumbotron{
+        background-image: url(Images/background.jpg);
+        font-family:Comic Sans MS;
+        background-size: cover;
+        height: 15rem;
+        color: #b624c9;
+        text-align: center;
+        
+    }
+    
+    .about-content{
+        color:white;
+    }
+    
+    
+    .about-content h3{
+        color:red;
+    }
+    
+    .resume-jumbotron{
+        background-image: url(Images/background.jpg);
+        font-family:Comic Sans MS;
+        background-size: cover;
+        height: 15rem;
+        color: #b624c9;
+        text-align: center;
+    }
+    
+    li {
+        padding: 5px 0px;
+    }
+    ul li {
+        padding: 5px 0px;
+    }
+    
+    .resume-jumbotron{
+        color:white;
+    }
+    .resume-container{
+        color: white;
+        float: 0auto;
+        align-items: center;
+        font-size: 17px;
+    }
+    
+    .resume-container h2{
+        align-items: left;
+        color: red;
+    }
+    
+    .goalcol{
+        float: none;
+        display: inline-block;
+        text-align: left;
+        margin-right: -4px
+    }
+    .projects-jumbotron{
+        background-image: url(Images/background.jpg);
+        font-family:Comic Sans MS;
+        background-size: cover;
+        height: 15rem;
+        color: #b624c9;
+        text-align: center;
+    }
+    
+    .projects-container{
+        color:white;
+    }
+    
+    .projects-container h3{
+        color: red;
+    }
+    
+    .scratch-col{
+        float: right;
+    }
+    
+    .app-col{
+        float: right;
+    }
