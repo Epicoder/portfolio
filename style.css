@@ -62,8 +62,14 @@
         }
         
         .my_card{
+            margin-right: 30px;
+            margin-left: 30px;
             border-style: inset;
             border-color: red;
+        }
+        
+        .align-right img{
+            float: right;
         }
         
         
@@ -108,6 +114,15 @@
         
         .about-content h3{
             color:red;
+        }
+        
+        .about-content img {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        
+        .mrg {
+            margin-right: 20px;
         }
         
         
@@ -181,3 +196,4 @@
             color: white;
             text-align: center;
         }
+        
