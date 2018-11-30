@@ -61,11 +61,21 @@
             text-align: center;
         }
         
+        .main-jumbotron h6{
+            color: white;
+        }
+        
         .my_card{
-            margin-right: 50px;
-            margin-left: 45px;
+            margin-right: 90px;
+            margin-left: 90px;
             border-style: inset;
             border-color: red;
+            overflow: auto;
+            margin-bottom: 10px;
+        }
+        
+        .my_pic{
+            padding-left: 330px;
         }
         
         .align-right img{
@@ -177,7 +187,7 @@
         }
         
         .projects-container h5{
-            color: red;
+            color: #42f4f1;
         }
         
         .scratch-col{
@@ -201,6 +211,6 @@
         }
         
         .contact-content{
-            margin-left: -25px;
+            margin-left: -60px;
         }
         
