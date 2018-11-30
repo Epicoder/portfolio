@@ -62,8 +62,8 @@
         }
         
         .my_card{
-            margin-right: 40px;
-            margin-left: 40px;
+            margin-right: 50px;
+            margin-left: 45px;
             border-style: inset;
             border-color: red;
         }
@@ -117,8 +117,8 @@
         }
         
         .about-content img {
-            margin-left: 30px;
-            margin-right: 30px;
+            margin-left: 60px;
+            margin-right: 60px;
         }
         
         .mrg {
@@ -181,12 +181,15 @@
         }
         
         .scratch-col{
-            float: right;
+            float: inline-block;
+            padding-bottom: 25px;
         }
         
         .app-col{
             float: right;
         }
+        
+        
         
         .contact-jumbotron{
             background-image: url(Images/background.jpg);
@@ -195,5 +198,9 @@
             height: 15rem;
             color: white;
             text-align: center;
+        }
+        
+        .contact-content{
+            margin-left: -25px;
         }
         
