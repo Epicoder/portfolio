@@ -1,4 +1,4 @@
-        /* */
+        /* Overall CSS */
         body{
             background-color:#112e56;
         }
@@ -52,6 +52,22 @@
             
         }
         
+         h1{
+            margin-top: 40px;
+            color: white;
+        }
+        
+        h6{
+            color:#42f4f1;
+        }
+        
+        
+        footer{
+            background-color:black !important;
+        }
+        
+        /*Index CSS*/
+        
         .main-jumbotron {
             background-image: url(Images/background.jpg);
             font-family:Comic Sans MS;
@@ -82,21 +98,6 @@
             float: right;
         }
         
-        
-        h1{
-            margin-top: 40px;
-            color: white;
-        }
-        
-        h6{
-            color:#42f4f1;
-        }
-        
-        
-        footer{
-            background-color:black !important;
-        }
-        
          .main-container{
              color:white;
              margin: 0 auto;
@@ -104,7 +105,7 @@
              
          }
          
-         
+         /*About Me CSS*/
         
         .about-jumbotron{
             background-image: url(Images/background.jpg);
@@ -134,6 +135,8 @@
         .mrg {
             margin-right: 20px;
         }
+        
+        /*Resume CSS*/
         
         
         .resume-jumbotron{
@@ -173,6 +176,9 @@
             text-align: left;
             margin-right: -4px
         }
+        
+        /* Projects CSS */
+        
         .projects-jumbotron{
             background-image: url(Images/background.jpg);
             font-family:Comic Sans MS;
@@ -199,7 +205,7 @@
             float: right;
         }
         
-        
+        /* Contact Me CSS */
         
         .contact-jumbotron{
             background-image: url(Images/background.jpg);
