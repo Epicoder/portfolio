@@ -1,6 +1,6 @@
         /* Overall CSS */
         body{
-            background-color:#112e56;
+            background-color:#42f4d1;
         }
         
         
@@ -58,7 +58,7 @@
         }
         
         h6{
-            color:#42f4f1;
+            color:black;
         }
         
         
@@ -78,7 +78,7 @@
         }
         
         .main-jumbotron h6{
-            color: white;
+            color: black;
         }
         
         .my_card{
@@ -99,7 +99,7 @@
         }
         
          .main-container{
-             color:white;
+             color:black;
              margin: 0 auto;
              display: block;
              
@@ -119,7 +119,7 @@
         
         
         .about-content{
-            color:white;
+            color:black;
         }
         
         
@@ -159,7 +159,7 @@
             color:white;
         }
         .resume-container{
-            color: white;
+            color: black;
             float: 0auto;
             align-items: center;
             font-size: 17px;
@@ -167,7 +167,7 @@
         
         .resume-container h2{
             align-items: left;
-            color: #42f4c2;
+            color: black;
         }
         
         .goalcol{
@@ -189,7 +189,7 @@
         }
         
         .projects-container{
-            color:white;
+            color:black;
         }
         
         .projects-container h5{
