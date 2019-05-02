@@ -3936,13 +3936,15 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #ff0ff3;
+  background-color: #063bce;
 }
 
 .nav-fill .nav-item {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   text-align: center;
+  color: #bce5f2;
+  text: bold;
 }
 
 .nav-justified .nav-item {
