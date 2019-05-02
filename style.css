@@ -3,21 +3,31 @@
             background-color:#42f4d1;
         }
         
-        
-        
-        
-        .logo{
-            float: left;
-            color: white;
-            position: fixed;
-            margin: 0 36px 16px 36px;
-            font-weight: bold;
-            font-size: 29px;
-            z-index: 11;
-            font-family: Comic Sans MS;
+        .navbar-fill{
+            background-color: black;
+            height: .5px;
         }
         
+        ul{
+            list-style-type: none;
+        }
         
+        .button {
+         width: 300px;
+         padding: 10px;
+         cursor: pointer;
+         font-size: 100%;
+         background: #3366cc;
+         color: #fff;
+         border: .5px solid #3366cc;
+         border-radius: 5px;
+         }
+         
+         .button:hover {
+         color: #ffffff;
+         background: #000;
+         border: .5px solid #fff;
+         }
         
         .menu{
             width: 100%;
@@ -64,13 +74,14 @@
         
         footer{
             background-color:black !important;
+            height: -200px;
         }
         
         /*Index CSS*/
         
         .main-jumbotron {
             background-image: url(Images/background.jpg);
-            font-family:Comic Sans MS;
+            font-family:Facet;
             background-size: cover;
             height: 15rem;
             color: white;
@@ -82,12 +93,13 @@
         }
         
         .my_card{
+            height: 200px;
             margin-right: 90px;
             margin-left: 90px;
             border-style: inset;
             border-color: red;
             overflow: auto;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
         }
         
         .my_pic{
@@ -109,7 +121,7 @@
         
         .about-jumbotron{
             background-image: url(Images/background.jpg);
-            font-family:Comic Sans MS;
+            font-family:Facet;
             background-size: cover;
             height: 15rem;
             color: #b624c9;
@@ -120,11 +132,13 @@
         
         .about-content{
             color:black;
+            font-family: Facet;
         }
         
         
         .about-content h3{
             color:red;
+            font-family: Facet;
         }
         
         .about-content img {
@@ -141,7 +155,7 @@
         
         .resume-jumbotron{
             background-image: url(Images/background.jpg);
-            font-family:Comic Sans MS;
+            font-family:Facet;
             background-size: cover;
             height: 15rem;
             color: #b624c9;
@@ -157,8 +171,11 @@
         
         .resume-jumbotron{
             color:white;
+            font-family: Facet;
+
         }
         .resume-container{
+            font-family: Facet;
             color: black;
             align-items: center;
             font-size: 17px;
@@ -167,6 +184,8 @@
         .resume-container h2{
             align-items: left;
             color: black;
+            font-family: Facet;
+
         }
         
         .goalcol{
@@ -180,7 +199,7 @@
         
         .projects-jumbotron{
             background-image: url(Images/background.jpg);
-            font-family:Comic Sans MS;
+            font-family:Facet;
             background-size: cover;
             height: 15rem;
             color: #b624c9;
@@ -189,10 +208,12 @@
         
         .projects-container{
             color:black;
+            font-family: Facet;
         }
         
         .projects-container h5{
             color: black;
+            font-family: Facet;
         }
         
         .scratch-col{
@@ -208,7 +229,7 @@
         
         .contact-jumbotron{
             background-image: url(Images/background.jpg);
-            font-family:Comic Sans MS;
+            font-family:Facet;
             background-size: cover;
             height: 15rem;
             color: white;
@@ -217,5 +238,6 @@
         
         .contact-content{
             margin-left: -60px;
+            font-family: Facet;
         }
         

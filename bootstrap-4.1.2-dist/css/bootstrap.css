@@ -3936,7 +3936,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #ff0f0f;
+  background-color: #ff0ff3;
 }
 
 .nav-fill .nav-item {
@@ -3984,6 +3984,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  background-color: black;
 }
 
 .navbar-brand {
