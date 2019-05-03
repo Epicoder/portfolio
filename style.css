@@ -3,6 +3,7 @@
             background-color:#42f4d1;
         }
         
+        
         .navbar-fill{
             background-color: black;
             height: .5px;
@@ -13,7 +14,7 @@
         }
         
         .button {
-         width: 300px;
+         width: 100px;
          padding: 10px;
          cursor: pointer;
          font-size: 100%;
